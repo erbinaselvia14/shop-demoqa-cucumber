@@ -67,7 +67,7 @@ public class TestCheckout {
 		System.out.println(searchPage.getTittleSearch());
 		searchPage.searchItemSatu("shirt");
 		scroll(400);
-		System.out.println(searchPage.getTxtResult());
+		System.out.println(searchPage.getTxtResultDua());
 	}
 	
 	@And("add shirt item")
